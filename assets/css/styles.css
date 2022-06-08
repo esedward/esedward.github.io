@@ -11,7 +11,7 @@ html {
   --bold-font: 700;
   --bolder-font: 900;
   --bg-color: #fcfcfc;
-  --primary-color: #4756df;
+  --primary-color: #6f3fd6;
   --secondary-color: #ff7235;
   --primary-shadow: #8b8eaf;
   --secondary-shadow: #a17a69;
@@ -45,6 +45,14 @@ a:hover {
 
 body {
   font-family: var(--font-family);
+}
+
+h1 {
+  color: var(--primary-color);
+}
+
+h2 {
+  color: var(--primary-color);
 }
 
 /* Navbar */
