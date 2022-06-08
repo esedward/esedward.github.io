@@ -14,7 +14,7 @@ This is the [link](https://github.com/esedward/esedward.github.io) to the Github
 
 ## Tech Stack
 
-**Client:** HTML, CSS, Vanilla JavaSCript
+**Client:** HTML, CSS, Vanilla JavaScript
 
 ## Tools Used
 
