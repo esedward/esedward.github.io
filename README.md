@@ -21,10 +21,10 @@ This is the [link](https://github.com/esedward/esedward.github.io) to the Github
 Below are are list of tools used, and the precise things they were used for:
 
 - [Ion Icons](https://ionic.io/ionicons) for hambuger menu bar
-- [Drawkit](https://www.drawkit.io/) for Jane Doe illustration
-- [Icon8](https://icons8.com/) for animated icons and skills icons
+- [Drawkit](https://www.drawkit.io/) for working from home illustration
+- [Icon8](https://icons8.com/) for logo and arrow icons
 - [Favicon](https://favicon.io/) for generated favicon initials
-- [Animate CSS](https://animate.style/) for Jane Doe's bio text animation
+- [Animate CSS](https://animate.style/) for bio text animation
 - [Formspree](https://formspree.io/) for contact form submision and straight delivery to Gmail
 
 ## Folder Structure

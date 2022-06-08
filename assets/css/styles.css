@@ -308,12 +308,20 @@ nav ul li {
   right: 0.5%;
   bottom: 3%;
   cursor: pointer;
-}
 
-.up-arrow {
+  color: var(--primary-color);
+  font-size: 2rem;
+  border: 0;
+  background-color: transparent;
+
   width: 3rem;
   height: 3rem;
 }
+
+/* .up-arrow {
+  width: 3rem;
+  height: 3rem;
+} */
 
 /* Footer */
 footer {
