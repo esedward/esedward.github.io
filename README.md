@@ -1,6 +1,6 @@
 # Personal Website
 
-My personal website and portfolio
+My personal website and portfolio: [eseedward.github.io](https://esedward.github.io/)
 
 <!-- ![screenshot](screenshot.png) -->
 

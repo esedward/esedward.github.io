@@ -113,6 +113,7 @@ nav ul li {
 .hero img {
   height: 27.7rem;
   width: 36rem;
+  margin-bottom: 3rem;
 }
 
 .bio {
@@ -331,7 +332,7 @@ footer {
   margin: 2rem 0 0;
 }
 
-/* Media queries for responsiveness */
+/* Media queries for responsiveness on smaller devices (mobile) */
 @media screen and (max-width: 720px) {
   nav {
     padding: 1.5rem 1rem;
@@ -341,8 +342,8 @@ footer {
     background-color: var(--bg-color);
     flex-direction: column;
     top: 86px;
-    left: 10%;
-    width: 80%;
+    left: 0%;
+    width: 100%;
     text-align: center;
     transform: translateX(120%);
     transition: transform 0.5s ease-in;
