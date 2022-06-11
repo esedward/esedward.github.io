@@ -176,10 +176,6 @@ nav ul li {
   color: var(--primary-color);
 }
 
-/* .skills-wrapper img {
-  padding: 1.25rem;
-} */
-
 .icon {
   width: 11.875rem;
   height: 11.25rem;
@@ -221,10 +217,6 @@ nav ul li {
   width: 21.875rem;
   padding: 1rem;
 }
-
-/* .project-container div {
-  flex: 1;
-} */
 
 .project-container p {
   padding: 0.4rem;
