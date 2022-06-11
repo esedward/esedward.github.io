@@ -119,20 +119,74 @@
     <section class="projects" id="projects">
       <h2 class="projects-title">Some of my Recent Projects</h2>
       <div class="projects-container">
-        <div class="project-container project-card">
-          <img
-            src="assets/images/expenseTracker.png"
-            alt="expense-tracker"
-            loading="lazy"
-            class="project-pic"
-          />
-          <h3 class="project-title">Expense Tracker</h3>
+        <div class="project-container project-card ray-tracer">
+          <h3 class="project-title">Ray Tracer</h3>
+          <div class="slideshow-container">
+            <div class="slide-fade">
+              <div class="number-text">1 / 4</div>
+              <img
+              src="assets/images/final scene.png"
+              alt="air balloons"
+              loading="lazy"
+              class="project-pic"
+              style="width:100%"
+              />  
+            </div>
+            <div class="slide-fade">
+              <div class="number-text">2 / 4</div>
+              <img
+              src="assets/images/bokeh.png"
+              alt="bokeh effect"
+              loading="lazy"
+              class="project-pic"
+              style="width:100%"
+              />  
+            </div>
+            <div class="slide-fade">
+              <div class="number-text">3 / 4</div>
+              <img
+              src="assets/images/scene-nochange.png"
+              alt="scene-nochange"
+              loading="lazy"
+              class="project-pic"
+              style="width:100%"
+              />  
+            </div>
+            <div class="slide-fade">
+              <div class="number-text">4 / 4</div>
+              <img
+              src="assets/images/scene-reflection.png"
+              alt="specular reflection"
+              loading="lazy"
+              class="project-pic"
+              style="width:100%"
+              />  
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
           <p class="project-details">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-            ratione vel inventore labore commodi modi quos culpa aut saepe!
-            Alias!
+            Non-recursive ray tracer written in C++ capable of secondary shadow rays and surface intersection with geometric primitives 
+            and triangle meshes. Implemented specular shading using the Lambertian model and anti-aliasing by super sampling. 
+            I explored topics in light and shading models, lenses, and surface intersection with quartic functions. 
           </p>
-          <a href="#" target="_blank" class="project-link">Check it Out</a>
+          <a href="https://drive.google.com/file/d/1AKi3c-zAx9G9dOnxDLMweD6BgA9a4FQS/view?usp=sharing" target="_blank" class="project-link">See the full report</a>
+          <p>
+            <a href="#contact" class="nav-link" id="code-ray-tracer">Contact me</a>
+            for access to the code
+          </p>
+        </div>
+        <div class="project-container project-card time-flies">
+          <h3 class="project-title">Time Flies</h3>
+          <iframe src="https://player.vimeo.com/video/510579063?h=812f367f29" frameborder="0"></iframe>
+          <!-- <iframe src="https://player.vimeo.com/video/510579063?h=812f367f29" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe> -->
+          <p class="project-details">
+            This piece was inspired by my friend's research for her Masters in Genetics. Written in Processing, 
+            the circular agents moving along the screen represent flies under a microscope, reproducing and passing on their genetic traits.
+          </p>
+          <a href="https://drive.google.com/file/d/1NUAtHu0nHJ4Y7NP1H8KdyVY-xWoFYD-_/view?usp=sharing" target="_blank" class="project-link">See the full report</a>
+          <br />
+          <a href="https://git.uwaterloo.ca/esedward/cs383/-/tree/master/a1" class="nav-link" id="code-flies">View the code repository</a>
         </div>
       </div>
     </section>

@@ -9,6 +9,14 @@ const nav = document.querySelector("nav");
 // Select nav links
 const navLink = document.querySelectorAll(".nav-link");
 
+// request code selection
+const codeRayTracer = document.querySelector("#code-ray-tracer");
+
+// request code functionality
+codeRayTracer.addEventListener("click", () => {
+  document.getElementById("message").value = "I would like access to the code for your RAY TRACER project because: ";
+});
+
 // scroll to top functionality
 scrollUp.addEventListener("click", () => {
   window.scrollTo({
@@ -29,3 +37,26 @@ navLink.forEach((link) =>
     ul.classList.remove("show");
   })
 );
+
+// Slideshow
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("slide-fade");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slides[slideIndex-1].style.display = "block";
+}
