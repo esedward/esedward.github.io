@@ -60,3 +60,27 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";
 }
+
+// Project card uniform height of max tile
+// const Pcards = document.querySelectorAll(".project-container");
+// maxHeight = 0;
+// Pcards.forEach((container) =>
+//   if(container.height() > maxHeight){
+
+//   }
+// );
+
+// var heights = $(".project-container").map(function ()
+//     {
+//         return $(this).height();
+//     }).get();
+
+// let maxHeight = Math.max.apply(null, heights);
+// uniHeight(maxHeight)
+
+// function uniHeight(h) {
+//   let cards = document.getElementsByClassName(".project-container");
+//   for (i = 0; i < cards.length; i++) {
+//     cards[i].height() = h;
+//   }
+// }
