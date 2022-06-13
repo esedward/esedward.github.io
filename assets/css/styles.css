@@ -221,9 +221,9 @@ nav ul li {
   position: relative;
 }
 
-.project-container p {
-  /* padding: 0.4rem; */
-}
+/* .project-container p {
+  padding: 0.4rem;
+} */
 
 .project-title {
   margin-bottom: var(--bottom-margin);
@@ -482,6 +482,10 @@ footer {
     width: 20.875rem;
   }
 
+  .project-links {
+    width: 20.875rem;
+  }
+
   .contact-form-container {
     max-width: 23.75rem;
   }
@@ -498,6 +502,10 @@ footer {
   }
 
   .project-container {
+    width: 17.875rem;
+  }
+
+  .project-links {
     width: 17.875rem;
   }
 
