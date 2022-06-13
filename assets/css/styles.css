@@ -446,10 +446,10 @@ footer {
     gap: 0;
   }
 
-  .hero img {
+  /* .hero img {
         height: 37.5rem;
         width: 30rem;
-    }
+    } */
 
   .bio {
     margin-top: -7rem;
@@ -474,6 +474,10 @@ footer {
     height: 5.25rem;
   }
 
+  .slill-body {
+    text-align: justify;
+  }
+
   .projects-container {
     flex-direction: column;
   }
@@ -492,10 +496,10 @@ footer {
 }
 
 @media screen and (max-width: 420px) {
-  .hero img {
+  /* .hero img {
     height: 37.5rem;
     width: 23rem;
-  }
+  } */
 
   .bio {
     width: 18.3rem;
