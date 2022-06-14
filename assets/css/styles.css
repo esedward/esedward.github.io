@@ -243,6 +243,7 @@ nav ul li {
 
 .project-details {
   margin-bottom: var(--bottom-margin);
+  margin-bottom: 3rem;
   text-align: justify;
 }
 
@@ -252,6 +253,7 @@ nav ul li {
   left: 0;
   width: 21.875rem;
   padding-bottom: 1rem;
+  /* padding-top: 6rem; */
 }
 
 .project-card {
@@ -343,7 +345,7 @@ nav ul li {
   text-align: center;
   width: 21.875rem;
   padding: 1rem;
-  /* height: 30rem; */
+  height: 36rem;
 }
 
 .art-title {
@@ -362,6 +364,16 @@ nav ul li {
   box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 20px;
   margin: 10px;
+}
+
+.turtle {
+  text-align: center;
+}
+
+.arts-preamble {
+  line-height: var(--line-height);
+  padding: 0.4rem;
+  text-align: center;
 }
 
 /* Contact */
@@ -562,6 +574,7 @@ footer {
 
   .project-container {
     width: 20.875rem;
+    height: auto;
   }
 
   .project-links {
@@ -574,6 +587,7 @@ footer {
 
   .art-container {
     width: 20.875rem;
+    height: auto;
   }
 
   .contact {
