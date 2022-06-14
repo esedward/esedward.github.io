@@ -548,9 +548,13 @@ footer {
     padding: 1rem 3.5rem;
   }
 
-  .skills li {
-    text-align: justify;
+  .skill-container {
+    flex-direction: column;
   }
+
+  /* .skills li {
+    text-align: justify;
+  } */
 
   .projects-container {
     flex-direction: column;
