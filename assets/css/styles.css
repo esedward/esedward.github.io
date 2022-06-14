@@ -305,8 +305,58 @@ nav ul li {
   to {opacity: 1}
 }
 
+/* Art */
+.art {
+  /* background-color: var(--bg-color); */
+  /* padding: 32px 0; */
+  margin-top: 2rem;
+}
+
+.art-pic {
+  /* width: 65%; */
+  /* height: 60%; */
+}
+
+.arts-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arts-title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.art-container {
+  text-align: center;
+  width: 21.875rem;
+  padding: 1rem;
+  height: 30rem;
+}
+
+.art-title {
+  margin-bottom: var(--bottom-margin);
+  color: var(--primary-color);
+}
+
+.art-details {
+  margin-bottom: var(--bottom-margin);
+  text-align: justify;
+}
+
+.art-card {
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--primary-shadow);
+  padding: 20px;
+  margin: 10px;
+}
+
 /* Contact */
 .contact {
+  background-color: var(--bg-color);
+  padding: 1rem 6rem;
   margin-top: 2rem;
 }
 
@@ -321,6 +371,7 @@ nav ul li {
   padding: 0.938rem;
   border-radius: 5px;
   box-shadow: 0 3px 10px var(--secondary-shadow);
+  margin-bottom: var(--bottom-margin-2);
 }
 
 .contact-form-container label {
@@ -405,10 +456,10 @@ nav ul li {
 
 /* Footer */
 footer {
-  background-color: var(--bg-color);
+  /* background-color: var(--bg-color); */
   padding: 1.25rem;
   text-align: center;
-  margin: 2rem 0 0;
+  /* margin: 2rem 0 0; */
 }
 
 /* Media queries for responsiveness on smaller devices (mobile) */
@@ -446,10 +497,10 @@ footer {
     gap: 0;
   }
 
-  /* .hero img {
-        height: 37.5rem;
-        width: 30rem;
-    } */
+  .hero img {
+        /* height: 37.5rem; */
+        width: 25rem;
+    }
 
   .bio {
     margin-top: -7rem;
@@ -474,8 +525,9 @@ footer {
     height: 5.25rem;
   }
 
-  .slill-body {
+  .skill-body {
     text-align: justify;
+    max-width: max-content;
   }
 
   .projects-container {
@@ -496,10 +548,10 @@ footer {
 }
 
 @media screen and (max-width: 420px) {
-  /* .hero img {
-    height: 37.5rem;
+  .hero img {
+    /* height: 37.5rem; */
     width: 23rem;
-  } */
+  }
 
   .bio {
     width: 18.3rem;
