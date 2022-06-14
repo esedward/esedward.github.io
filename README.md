@@ -1,6 +1,6 @@
 # Personal Website
 
-My personal website and portfolio: [eseedward.github.io](https://esedward.github.io/)
+My personal website and portfolio: [esedward.github.io](https://esedward.github.io/)
 
 <!-- ![screenshot](screenshot.png) -->
 
@@ -23,6 +23,7 @@ Below are are list of tools used, and the precise things they were used for:
 - [Ion Icons](https://ionic.io/ionicons) for hambuger menu bar
 - [Drawkit](https://www.drawkit.io/) for working from home illustration
 - [Icon8](https://icons8.com/) for logo and arrow icons
+- [Icon Finder](https://www.iconfinder.com/) for Goodreads icon
 - [Favicon](https://favicon.io/) for generated favicon initials
 - [Animate CSS](https://animate.style/) for bio text animation
 - [Formspree](https://formspree.io/) for contact form submision and straight delivery to Gmail
