@@ -590,6 +590,10 @@ footer {
     height: auto;
   }
 
+  .arts-preamble {
+    padding: 1rem 3.5rem;
+  }
+
   .contact {
     margin-top: 2rem;
     padding: 1rem 3.5rem;
