@@ -525,9 +525,9 @@ footer {
     height: 5.25rem;
   }
 
-  .skill-body {
-    text-align: justify;
-    max-width: max-content;
+  .skills {
+    margin-top: 2rem;
+    padding: 1rem 3.5rem;
   }
 
   .projects-container {
@@ -540,6 +540,19 @@ footer {
 
   .project-links {
     width: 20.875rem;
+  }
+
+  .arts-container {
+    flex-direction: column;
+  }
+
+  .art-container {
+    width: 20.875rem;
+  }
+
+  .contact {
+    margin-top: 2rem;
+    padding: 1rem 3.5rem;
   }
 
   .contact-form-container {
