@@ -528,7 +528,8 @@ footer {
   .hero img {
         /* height: 37.5rem; */
         /* width: 27rem; */
-        height: 20rem;
+        /* height: 20rem; */
+        width: 20.5rem;
         /* width: 26rem; */
         /* margin-bottom: 3rem; */
     }
@@ -611,8 +612,9 @@ footer {
 
 @media screen and (max-width: 420px) {
   .hero img {
-    height: 17.7rem;
+    /* height: 17.7rem; */
     /* width: 23rem; */
+    width: 18.3rem;
     margin-bottom: 3rem;
   }
 
